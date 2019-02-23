@@ -35,7 +35,7 @@
       >
         <div class="flex justify-center items-center mb-8">
           <div class="AppWelcome__Logo">
-            <img :src="assets_loadImage('ark-logo.png')">
+            <img :src="assets_loadImage('kapu-logo.png')">
           </div>
         </div>
         <i18n
@@ -68,7 +68,7 @@
       >
         <div class="absolute pin-t pin-l">
           <div class="AppWelcome__Logo__corner">
-            <img :src="assets_loadImage('ark-logo.png')">
+            <img :src="assets_loadImage('kapu-logo.png')">
           </div>
         </div>
 
@@ -272,8 +272,8 @@ export default {
 
 <style lang="postcss" scoped>
 .AppWelcome__Logo {
-  box-shadow: 0 10px 15px rgba(228, 9, 90, 0.34);
-  @apply .bg-red .w-24 .p-4 .rounded-lg
+  box-shadow: 0 10px 15px #AB8B64;
+  @apply .bg-brown-dark .w-24 .p-4 .rounded-lg
 }
 
 .AppWelcome__background {
@@ -283,6 +283,6 @@ export default {
 }
 
 .AppWelcome__Logo__corner {
-  @apply .bg-red .w-18 .px-3 .py-4 .rounded-tl-lg .rounded-br-lg
+  @apply .bg-brown-dark .w-18 .px-3 .py-4 .rounded-tl-lg .rounded-br-lg
 }
 </style>
