@@ -12,16 +12,6 @@
   resolved "https://registry.yarnpkg.com/7zip/-/7zip-0.0.6.tgz#9cafb171af82329490353b4816f03347aa150a30"
   integrity sha1-nK+xca+CMpSQNTtIFvAzR6oVCjA=
 
-"@arkecosystem/client@^0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@arkecosystem/client/-/client-0.1.20.tgz#950d0e451521299f4f91d08b6e75de57ba8e5dfd"
-  integrity sha512-ka6y2pELzxcpn2dJf0+JXNBeOb7RY3gjxneIhcCGbUDQIsRzsxxDRGzDXs52h4xAS8V+mKOFDaU44bmHnnQLJA==
-  dependencies:
-    axios "^0.18.0"
-    lodash.clonedeep "^4.5.0"
-    lodash.orderby "^4.6.0"
-    lodash.shuffle "^4.2.0"
-
 "@arkecosystem/crypto@^0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@arkecosystem/crypto/-/crypto-0.2.5.tgz#694acdcb088c8334dbc923bb4498a7b75ef8715a"
@@ -666,6 +656,16 @@
     log-symbols "^1.0.2"
     log-update "^2.3.0"
     strip-ansi "^3.0.1"
+
+"@kapucoin/client@^0.1.21":
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/@kapucoin/client/-/client-0.1.21.tgz#2395b53ea106a52c4cd26a11006b7bec498fa97f"
+  integrity sha512-oXdlv0SdhkMhrKaQfE40SCygQ6VqekjR+ai2MnYtHP2iP597oAFYyx707kgTGPB/bMN2qWgw7uKF1UgQlGMJQw==
+  dependencies:
+    axios "^0.18.0"
+    lodash.clonedeep "^4.5.0"
+    lodash.orderby "^4.6.0"
+    lodash.shuffle "^4.2.0"
 
 "@ledgerhq/hw-transport-node-hid@^4.24.0":
   version "4.24.0"
