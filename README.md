@@ -1,9 +1,9 @@
 # Kapu Desktop Wallet
 
-![Kapu Desktop Wallet](./banner.png)
+![KAPU-DESKTOP](https://i.imgur.com/sYopmfR.jpg)
 
-[![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/desktop-wallet)](https://circleci.com/gh/ArkEcosystem/desktop-wallet)
-[![Latest Version](https://badgen.now.sh/github/release/ArkEcosystem/desktop-wallet)](https://github.com/ArkEcosystem/desktop-wallet/releases)
+[![Build Status](https://badgen.now.sh/circleci/github/gsilvestri/desktop-wallet)](https://circleci.com/gh/gsilvestri/desktop-wallet)
+[![Latest Version](https://badgen.now.sh/github/release/gsilvestri/desktop-wallet)](https://github.com/gsilvestri/desktop-wallet/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 ## Download
