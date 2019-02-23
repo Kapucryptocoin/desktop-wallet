@@ -12,7 +12,7 @@ const about = {
   click: () => aboutWindow({
     icon_path: isProduction
       ? path.resolve(__dirname, './static/128x128.png')
-      : path.resolve(__dirname, '../../build/icons/128x128.png'),
+      : path.resolve(__dirname, '../../build/icons/195x195.png'),
     package_json_dir: path.resolve(__dirname, '../../'),
     css_path: isProduction ? path.resolve(__dirname, 'styles.css') : null
   })

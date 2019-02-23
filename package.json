@@ -12,9 +12,10 @@
     "ItsANameToo <itsanametoo@protonmail.com>",
     "Juan A. Martín <juan@ark.io>",
     "Lúcio Rubens <lucio@ark.io>",
-    "Mario Vega <mario@ark.io>"
+    "Mario Vega <mario@ark.io>",
+    "G. Silvestri <gsit80@gmail.com>"
   ],
-  "description": "Ark Ecosystem Desktop Wallet",
+  "description": "Kapu Desktop Wallet",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gsilvestri/desktop-wallet/issues"
@@ -158,7 +159,7 @@
     "webpack-hot-middleware": "^2.24.3"
   },
   "build": {
-    "productName": "Ark Desktop Wallet",
+    "productName": "Kapu Desktop Wallet",
     "appId": "io.ark.desktop-wallet",
     "compression": "maximum",
     "artifactName": "${name}-${os}-${arch}-${version}.${ext}",

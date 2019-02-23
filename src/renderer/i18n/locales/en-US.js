@@ -1,7 +1,7 @@
 export default {
   COMMON: {
     ALL: 'All',
-    APP_NAME: 'ARK Desktop Wallet',
+    APP_NAME: 'KAPU Desktop Wallet',
     APPEARANCE: 'Appearance',
     AVATAR: 'Avatar',
     BACK: 'Back',
@@ -61,25 +61,25 @@ export default {
       OWNER: 'This also brings greater responsibility for you, the account owner.',
       WARNING: {
         INFO: 'Unlike your traditional bank account, {warn}',
-        WARN: 'lost passwords, passphrases or stolen funds cannot be restored by the delegates, ARK.io team, or anyone else.'
+        WARN: 'lost passwords, passphrases or stolen funds cannot be restored by the delegates, KAPU.one team, or anyone else.'
       },
       SECURITY: 'The security of your account is solely up to you.'
     },
     RESPONSIBILITY: {
       TITLE: 'Responsibility',
       STORAGE: {
-        INFO: 'The {passphrase} of each wallet address is able to sign transactions and move funds. This means if your computer dies but you have your passphrase, you can still access your funds. The ARK Desktop Wallet has an additional feature that lets you set an {encrypted} as well, for easier management. If your computer dies, you cannot use the encrypted password to access your funds from a different machine. You will need the passphrase.',
+        INFO: 'The {passphrase} of each wallet address is able to sign transactions and move funds. This means if your computer dies but you have your passphrase, you can still access your funds. The KAPU Desktop Wallet has an additional feature that lets you set an {encrypted} as well, for easier management. If your computer dies, you cannot use the encrypted password to access your funds from a different machine. You will need the passphrase.',
         PASSPHRASE: 'passphrase',
         ENCRYPTED: 'encrypted password'
       },
-      BACKUP: 'Always backup your passphrase and keep it in a safe place. You can write it down on thick paper and store multiple copies in secure locations. You can also store it on an encrypted flash drive. Alternatively, you can use a Ledger Nano S USB hardware device, available at Ledger.com, to store and access your funds and the ARK Desktop Wallet. You can plug your Ledger Nano S into your computer and access the ARK blockchain without needing to enter your passphrase.',
+      BACKUP: 'Always backup your passphrase and keep it in a safe place. You can write it down on thick paper and store multiple copies in secure locations. You can also store it on an encrypted flash drive. Alternatively, you can use a Ledger Nano S USB hardware device, available at Ledger.com, to store and access your funds and the KAPU Desktop Wallet. You can plug your Ledger Nano S into your computer and access the KAPU blockchain without needing to enter your passphrase.',
       PASSPHRASE: 'Remember, anyone who has your passphrase can access your funds. Never share your account with anyone and avoid storing it in locations that are susceptible to hacks, such as the Cloud.'
     },
     TURN: {
       TITLE: 'Turn',
-      WALLET: 'Now armed with the knowledge of how important it is to keep your passphrases safe, you are ready to claim your financial autonomy with the ARK Desktop Wallet.',
-      SUPPORT: 'ARK is an open-source ecosystem and if you need assistance, the ARK community and team is here to help. Create a post on reddit.ark.io, or join the real-time chat system at slack.ark.io.',
-      CONCLUSION: 'Everyone here on the ARK.io team hopes you enjoy using the ARK Desktop Wallet to participate in the blockchain revolution!'
+      WALLET: 'Now armed with the knowledge of how important it is to keep your passphrases safe, you are ready to claim your financial autonomy with the KAPU Desktop Wallet.',
+      SUPPORT: 'KAPU is an open-source ecosystem and if you need assistance, the KAPU community and team is here to help. Create a post on reddit.KAPU.one, or join the real-time chat system at slack.KAPU.one.',
+      CONCLUSION: 'Everyone here on the KAPU.one team hopes you enjoy using the KAPU Desktop Wallet to participate in the blockchain revolution!'
     }
   },
 
@@ -203,7 +203,7 @@ export default {
   },
 
   APP_FOOTER: {
-    TEXT: 'Made with ♥ by Ark'
+    TEXT: 'Made with ♥ by Kapu'
   },
 
   APP_SIDEMENU: {
@@ -371,7 +371,7 @@ export default {
     VALIDATING_SEED: 'Validating Seed Server details...',
     SEED_VALIDATE_FAILED: 'Failed to connect to seed server',
     PLACEHOLDER: {
-      EXPLORER: 'http://explorer.io',
+      EXPLORER: 'http://explorer.one',
       SEED_SERVER: 'http://1.1.1.1:4002',
       EPOCH: '2017-03-21T13:00:00.000Z'
     }
@@ -531,7 +531,7 @@ export default {
 
     WALLET_EXCHANGE: {
       CHANGELLY_TERMS: {
-        TITLE: 'Purchase {ticker} directly within ARK Desktop Wallet with our Changelly integration',
+        TITLE: 'Purchase {ticker} directly within KAPU Desktop Wallet with our Changelly integration',
         CONTENT: 'Changelly lets you exchange other cryptocurrencies into {ticker} and has an option to buy {ticker} directly with your credit or debit cards.',
         CONFIRMATION: 'I have read and I agree with the {terms} and the {privacy} from Changelly. By clicking {button}, I acknowledge and understand that my transaction may trigger AML/KYC verification according to Changelly {kyc}.',
         TERMS_OF_USE: 'terms of use',
@@ -850,7 +850,7 @@ export default {
     USERNAME_MAX_LENGTH_ERROR: 'The username must be less than or equal to 20 characters long',
     ALREADY_REGISTERED: 'This wallet is already registered as a delegate',
     BLOG: 'Voting Guide',
-    EXPLANATION: 'Voting is an optional, but important mechanism that keeps the Ark network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for a delegate that you support. Learn more about voting for a delegate by clicking on the following link:',
+    EXPLANATION: 'Voting is an optional, but important mechanism that keeps the KAPU network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for a delegate that you support. Learn more about voting for a delegate by clicking on the following link:',
     VOTE_DELEGATE: 'Vote Delegate {delegate}',
     UNVOTE_DELEGATE: 'Unvote Delegate {delegate}',
     VOTED_FOR: 'You voted for delegate {delegate}',
