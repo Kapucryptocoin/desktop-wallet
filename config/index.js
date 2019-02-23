@@ -4,15 +4,11 @@ exports.APP = {
 }
 
 exports.NETWORKS = [
-  require('./networks/mainnet.json'),
-  require('./networks/devnet.json'),
-  require('./networks/mainnet_kapu.json')
+  require('./networks/mainnet.json')
 ]
 
 exports.PEERS = {
-  'ark.mainnet': require('./peers/mainnet.json'),
-  'ark.devnet': require('./peers/devnet.json'),
-  'kapu.mainnet': require('./peers/mainnet_kapu.json')
+  'kapu.mainnet': require('./peers/mainnet.json')
 }
 
 exports.ANNOUNCEMENTS = {

@@ -303,9 +303,7 @@ export default {
       }
 
       const networkLookup = {
-        'kapu.mainnet': 'mainnet',
-        'ark.mainnet': 'ark mainnet',
-        'ark.devnet': 'ark devnet'
+        'kapu.mainnet': 'mainnet'
       }
       let peers = await this._vm.$client.fetchPeers(networkLookup[network.id], getters['all']())
       if (peers.length) {

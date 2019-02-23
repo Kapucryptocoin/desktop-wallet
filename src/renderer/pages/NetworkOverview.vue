@@ -121,7 +121,7 @@ export default {
 
   methods: {
     getNetworks () {
-      const defaultNetworkIds = ['kapu.mainnet', 'ark.mainnet', 'ark.devnet']
+      const defaultNetworkIds = ['kapu.mainnet']
 
       this.networks = Object.values(this.$store.getters['network/all']).map(network => {
         return {

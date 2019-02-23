@@ -229,7 +229,10 @@ let colors = {
   'pink': '#f66d9b',
   'pink-light': '#e28188', // Sidemenu active icon
   'pink-lighter': '#e5b0b4', // Sidemenu hover icon
-  'pink-lightest': '#ffebef'
+  'pink-lightest': '#ffebef',
+
+  'brown': '#ebcfa6',
+  'brown-dark': '#AB8B64'
 }
 
 module.exports = {
