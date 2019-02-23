@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "ark-desktop-wallet",
+  "name": "kapu-desktop-wallet",
   "version": "2.2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gsilvestri/desktop-wallet.git"
   },
-  "author": "ArkEcosystem <info@ark.io>",
+  "author": "Kapucoin <info@kapu.one>",
   "contributors": [
     "Alex Barnsley <alex@ark.io>",
     "ItsANameToo <itsanametoo@protonmail.com>",
@@ -160,13 +160,13 @@
   },
   "build": {
     "productName": "Kapu Desktop Wallet",
-    "appId": "io.ark.desktop-wallet",
+    "appId": "one.kapu.desktop-wallet",
     "compression": "maximum",
     "artifactName": "${name}-${os}-${arch}-${version}.${ext}",
     "protocols": {
-      "name": "Ark URI scheme",
+      "name": "Kapu URI scheme",
       "schemes": [
-        "ark"
+        "kapu"
       ],
       "role": "Viewer"
     },
@@ -186,7 +186,7 @@
     },
     "linux": {
       "category": "Utility",
-      "executableName": "ark-desktop-wallet",
+      "executableName": "kapu-desktop-wallet",
       "icon": "build/icons",
       "target": [
         "AppImage",
@@ -194,7 +194,7 @@
         "tar.gz"
       ],
       "desktop": {
-        "MimeType": "x-scheme-handler/ark;"
+        "MimeType": "x-scheme-handler/kapu;"
       }
     },
     "deb": {

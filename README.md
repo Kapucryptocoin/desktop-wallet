@@ -143,4 +143,4 @@ If you discover a security vulnerability within this project, please send an e-m
 
 ## License
 
-[MIT](LICENSE) © [ArkEcosystem](https://ark.io)
+[MIT](LICENSE) © [Kapucoin](https://kapu.one)
