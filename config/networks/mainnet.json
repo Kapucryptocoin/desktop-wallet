@@ -4,7 +4,7 @@
   "title": "KAPU Mainnet",
   "server": "http://51.15.136.166:9702",
   "description": "The KAPU Mainnet should be chosen in most cases.",
-  "imagePath": "networks/kapu.png",
+  "imagePath": "networks/kapu.mainnet.png",
   "apiVersion": 2,
   "slip44": "111",
   "market": {
